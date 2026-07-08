@@ -15,7 +15,7 @@ GET /echo?text={text}
   so they cannot be predicted by the agent — receiving them proves this
   endpoint was actually reached.
   Example:
-    curl "https://demo-production-dc11.up.railway.app/echo?text=platypus"
+    curl "https://demo-production-dc11.up.railway.app/echo?text=HelloNanda"
   Response (serverTime and nonce vary per call):
     { "youSent": "platypus", "serverTime": "2026-07-08T12:34:56.789Z", "nonce": "a1b2c3d4e5f6" }
 
